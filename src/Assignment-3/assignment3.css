@@ -2,6 +2,55 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.first{
+    
+    display: inline-flex;
+    width:100%;
+    height: 500px;
+    background-color:rgb(167, 160, 160) ;
+    padding: 30px 30px 30px 30px;
+    margin: 20px;
+}
+.first .textbox{
+    float: left;
+    width: 50%;
+    height: 30%;
+    padding: 50px 30px 50px 40px;
+}
+.first .website{
+    float:right;
+    width: 100%;
+    height: 100%;
+    padding: 50px 40px 50px 30px;
+}
+iframe{
+    padding:30px;
+    width: 100%;
+    height: 80%;
+}
+.second{
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    margin: 20px;
+}
+.second.text{
+    padding: 30px;
+}
+.second.iframe{
+    height:400px;
+    width:70%;
+}
+
+button{
+    padding: 5px 10px 5px 10px;
+    background-color: black;
+    color: white;
 }
